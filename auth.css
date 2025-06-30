@@ -1,0 +1,115 @@
+/* === GENERAL RESET === */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  height: 100vh;
+  background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* === FORM CONTAINER === */
+.login-container,
+.register-container {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  padding: 40px;
+  border-radius: 12px;
+  width: 450px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  text-align: center;
+  color: #fff;
+}
+
+/* === HEADINGS === */
+h2 {
+  margin-bottom: 25px;
+  font-size: 26px;
+  color: #fff;
+}
+
+/* === INPUT FIELD STYLING === */
+.input-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  width: 90%;
+  padding: 12px 40px 12px 15px;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+  background-color: rgba(255,255,255,0.2);
+  color: #fff;
+  font-size: 16px;
+}
+
+.input-group input::placeholder {
+  color: #eee;
+}
+
+.input-group .icon {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  font-size: 18px;
+  color: #fff;
+  pointer-events: none;
+}
+
+/* === OPTIONS/REMEMBER === */
+.options {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.options a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.options a:hover {
+  text-decoration: underline;
+}
+
+/* === BUTTONS === */
+button {
+  width: 90%;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  background-color: #fff;
+  color: #222;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #f0f0f0;
+}
+
+/* === LINKS & TEXT === */
+p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #fff;
+}
+
+a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
